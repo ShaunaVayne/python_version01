@@ -1,0 +1,9 @@
+mac安装pip:
+本人用的ide是在python3下跑的,所以需要安装python3, 因为电脑自带python2, 所以用sudo easy_install pip命令安装的pip并不能用;
+此处需要安装pip3,步骤:
+1.打开网址https://bootstrap.pypa.io/get-pip.py, 将内容复制后,保存为get-pip.py文件;
+2.在终端中运行python3 get-pip.py命令;
+3.显示Requirement already up-to-date: pip in /usr/local/lib/python3.6/site-packages表示安装成功
+
+安装mysql驱动:
+1. 运行命令pip3 install mysql-connector-python --allow-external mysql-connector-python
